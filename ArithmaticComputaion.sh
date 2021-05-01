@@ -6,3 +6,4 @@ read -p "enter value for c:" c
 echo $(( $a+$b*$c ))
 echo $(( $a*$b+$c ))
 echo $(( $c+$a/$b ))
+echo $(( $a%$b+$c ))
