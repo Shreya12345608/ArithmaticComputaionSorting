@@ -52,3 +52,8 @@ done
 
 echo "decending sorted array";
 printf "%s\n" "${arr1[@]}" | sort -nr
+
+#ascending oder
+
+echo "ascending sorted array";
+printf "%s\n" "${arr1[@]}" | sort -n
