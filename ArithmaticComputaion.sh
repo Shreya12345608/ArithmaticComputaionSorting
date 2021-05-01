@@ -1,4 +1,4 @@
-#!/bin/bash 
+#!/bin/bash -x 
 echo "Welocome to Arithmatic Computaion & sorting "
 read -p "Enter value for a:" a
 read -p "enter value for b:" b
@@ -46,3 +46,9 @@ do
 arr1[i]=${dict[$i]}
 echo "Array[$i]:"${arr1[i]}
 done
+
+
+#Descending oder
+
+echo "decending sorted array";
+printf "%s\n" "${arr1[@]}" | sort -nr
